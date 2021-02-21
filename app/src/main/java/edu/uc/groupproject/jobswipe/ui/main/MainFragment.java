@@ -2,6 +2,7 @@ package edu.uc.groupproject.jobswipe.ui.main;
 
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,6 +12,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import edu.uc.groupproject.jobswipe.R;
 
@@ -34,6 +38,12 @@ public class MainFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this).get(MainViewModel.class);
         // TODO: Use the ViewModel
+
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        db.collection("JobPostings").add(new TestDto());
+
     }
 
 }

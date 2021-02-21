@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "415198236693",
+    "project_id": "job-swipe-83fe8",
+    "storage_bucket": "job-swipe-83fe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415198236693:android:20f37906d2951524ff7e1c",
+        "android_client_info": {
+          "package_name": "edu.uc.groupproject.jobswipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415198236693-npq9416pqovlobdvdrpnfm02rtns6t4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFRMPHOzDj7HRAAQELjy9FGNspZGE0xQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415198236693-npq9416pqovlobdvdrpnfm02rtns6t4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
