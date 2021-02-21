@@ -42,8 +42,7 @@ public class MainFragment extends Fragment {
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-        db.collection("JobPostings").add(new TestDto());
-
+        //db.collection("JobPostings").add(new TestDto());
     }
 
 }

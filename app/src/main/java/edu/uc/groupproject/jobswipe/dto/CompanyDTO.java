@@ -3,27 +3,28 @@ package edu.uc.groupproject.jobswipe.dto;
 import java.util.ArrayList;
 
 public class CompanyDTO {
-    private String CompanyName;
-    private String DetailedDescription;
+    private String companyName;
+    private String detailedDescription;
     private String jobTitle;
-    private String [] Location;
-    private ArrayList<String> RecommendedSkills;
+    private String [] location;
+    private ArrayList<String> recommendedSkills;
     private int Salary;
+    private String fieldOfStudy;
 
     public String getCompanyName() {
-        return CompanyName;
+        return companyName;
     }
 
     public void setCompanyName(String companyName) {
-        CompanyName = companyName;
+        this.companyName = companyName;
     }
 
     public String getDetailedDescription() {
-        return DetailedDescription;
+        return detailedDescription;
     }
 
     public void setDetailedDescription(String detailedDescription) {
-        DetailedDescription = detailedDescription;
+        this.detailedDescription = detailedDescription;
     }
 
     public String getJobTitle() {
@@ -35,19 +36,19 @@ public class CompanyDTO {
     }
 
     public String[] getLocation() {
-        return Location;
+        return location;
     }
 
     public void setLocation(String[] location) {
-        Location = location;
+        this.location = location;
     }
 
     public ArrayList<String> getRecommendedSkills() {
-        return RecommendedSkills;
+        return recommendedSkills;
     }
 
     public void setRecommendedSkills(ArrayList<String> recommendedSkills) {
-        RecommendedSkills = recommendedSkills;
+        this.recommendedSkills = recommendedSkills;
     }
 
     public int getSalary() {
@@ -56,5 +57,13 @@ public class CompanyDTO {
 
     public void setSalary(int salary) {
         Salary = salary;
+    }
+
+    public String getFieldOfStudy() {
+        return fieldOfStudy;
+    }
+
+    public void setFieldOfStudy(String fieldOfStudy) {
+        this.fieldOfStudy = fieldOfStudy;
     }
 }
